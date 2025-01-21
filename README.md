@@ -18,6 +18,11 @@ This repository contains MATLAB-based applications for solving electrical circui
 - MATLAB (preferably 2020 or later)  
 - MATLAB App Designer (for .mlapp file support)
 
+## Folder Structure
+- `src/:` Contains Arduino source code for the project.
+- `docs/:` Includes additional documentation and schematics.
+- `media/:` Demonstration videos and images.
+
 ## Installation:
 1. Clone or download the repository.
 2. Open the `home.mlapp` file in MATLAB App Designer.
