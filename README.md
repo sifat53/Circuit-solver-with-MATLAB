@@ -1,5 +1,5 @@
 
-# EEE212 Circuit Solver with MATLAB
+# Circuit Solver with MATLAB
 
 This repository contains MATLAB-based applications for solving electrical circuits and performing transient analysis of a series RLC circuit. The two primary components are:
 
@@ -20,10 +20,12 @@ This repository contains MATLAB-based applications for solving electrical circui
 
 ## Installation:
 1. Clone or download the repository.
-2. Open the `.mlapp` files in MATLAB App Designer.
+2. Open the `home.mlapp` file in MATLAB App Designer.
 3. Ensure that you have MATLAB with App Designer support.
 
 ## Usage:
+- **home.mlapp**
+  - Gives 2 button to navigate to `circuitAnalyze.mlapp` and `app_seriesRLC_res.mlapp`
 - **circuitAnalyze.mlapp**:  
   - Load a circuit netlist(or type the in text box).
   - Run the solver to get voltage and current values at different nodes and components.
